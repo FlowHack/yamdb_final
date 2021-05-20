@@ -1,5 +1,7 @@
 # yamdb_final
 
+![example workflow](https://github.com/github/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+
 ### Описание
 _Благодаря этому ресурсу каждый сможет найти информацию по произведениям различных направлений и жанров, а также оставить отзыв или комментарий_
 
