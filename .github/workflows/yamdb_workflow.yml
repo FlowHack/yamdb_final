@@ -17,14 +17,14 @@ jobs:
 
     - name: Install dependencies
       run: | 
-        python3 -m pip install --upgrade pip 
-        pip3 install flake8 pep8-naming flake8-broken-line flake8-return flake8-isorts
-        pip3 install -r requirements.txt 
+        python -m pip install --upgrade pip 
+        pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isorts
+        pip install -r requirements.txt 
 
     - name: Test with flake8 and pytest
       run: |
-        python3 -m flake8
-        python3 -m pytest
+        python -m flake8
+        python -m pytest
 
   send_message:
     runs-on: ubuntu-latest
