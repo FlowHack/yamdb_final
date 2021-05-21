@@ -62,7 +62,6 @@ jobs:
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_KEY }}
         passphrase: ${{ secrets.PASSPHRASE }}
-        stack_file_name: docker-compose.yaml
         script: |
           sudo docker ${{ secrets.USER }}/yamdb:latest
           sudo docker-compose stop
