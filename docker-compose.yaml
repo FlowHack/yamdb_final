@@ -10,7 +10,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: flowhack/yamdb:latest
+    build: .
     restart: always
     volumes:
       - ./code/static/:/var/html/static/
