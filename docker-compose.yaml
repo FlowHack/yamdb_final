@@ -10,7 +10,7 @@ services:
     env_file:
       - ./.env
   web:
-    build: .
+    image: flowhack/yamdb:latest
     restart: always
     volumes:
       - ./code/static/:/var/html/static/
@@ -33,7 +33,6 @@ services:
 
 volumes:
   postgres_data:
-  # Добавляем новые тома 
   static_value:
   media_value:
 
