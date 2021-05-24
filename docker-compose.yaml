@@ -13,8 +13,8 @@ services:
     image: flowhack/yamdb
     restart: always
     volumes:
-      - ./code/static/:/var/html/static/
-      - ./code/media/:/var/html/media/
+      - static_value:/code/static/
+      - media_value:/code/media/
     depends_on:
       - db
     env_file:
@@ -34,4 +34,3 @@ volumes:
   postgres_data:
   static_value:
   media_value:
-
