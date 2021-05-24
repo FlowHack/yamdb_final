@@ -1,5 +1,7 @@
 # yamdb_final
 
+Сайт: _http://84.252.140.69/_
+
 ![example workflow](https://github.com/FlowHack/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
 ### Описание
